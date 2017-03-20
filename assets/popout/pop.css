@@ -1,0 +1,129 @@
+.ku1 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.ku2 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.ku3 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.ku4 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.vp1 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.vp2 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.vp3 {
+display: none;
+position: absolute;
+width: 100%;
+background-color:rgba(33,33,33,0.8);
+height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:9999999999999999999999;
+}
+.closeku1 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closeku2 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closeku3 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closeku4 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closevp1 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closevp2 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.closevp3 {
+color: white;
+cursor: pointer;
+font-weight: 900;
+background: #00A8FF;
+padding: 10px;
+border-radius: 10px;
+}
+.sl {
+padding: 3%;
+}
