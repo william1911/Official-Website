@@ -15,7 +15,7 @@ html, body {
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff!important;
-	background-image: url("../../../assets/res/tile-dh.jpg");
+	background-image: url("../../../assets/res/tile-red.jpg");
 	background-attachment:fixed;
 	zoom: 100%;
 }
@@ -35,7 +35,7 @@ html, body {
 
 #topNav {
 	padding-top: 7px;
-	background-color: #0a0a0a;
+	background-color: rgba(15, 15, 15, 0.6);
 	border-top-color: red;
 	border-top-style: solid;
 }
@@ -80,7 +80,7 @@ html, body {
 .navbar-inverse {
 	border: none;
 	padding: 10px 0;
-	background-color: rgba(15, 15, 15, 0.7);
+	background-color: rgba(15, 15, 15, 0.3);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 	margin-bottom: 0
 }
@@ -109,7 +109,6 @@ html, body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
 
 #pageIntro {
@@ -126,7 +125,7 @@ html, body {
 	font-family: 'Open Sans', sans-serif!important;
 	padding: 15px 15px;
 	border-left: 6px solid #FF0000;
-	background-color: rgba(15, 15, 15, 0.7);
+	background-color: rgba(15, 15, 15, 0.3);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
 
@@ -143,7 +142,7 @@ html, body {
 	border-bottom-width: 1px;
   border-color: #FF0000;
   border-style: solid;
-	background-color: #131313;
+	background-color: rgba(15, 15, 15, 0.6);;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
 
@@ -281,7 +280,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #social {
-	background-color: #131313;
+	background-color: rgba(15, 15, 15, 0.6);;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
 
@@ -505,7 +504,7 @@ input:focus, textarea:focus, select:focus {
 	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
-	background-color: #111;
+	background-color: rgba(15, 15, 15, 0.8);
 	margin-top: 35px;
 	border-bottom-width: 0.5px;
 	border-color: #FF0000;
