@@ -35,7 +35,9 @@ html, body {
 
 #topNav {
 	padding-top: 7px;
-	background-color: #0a0a0a
+	background-color: #0a0a0a;
+	border-top-color: red;
+	border-top-style: solid;
 }
 
 #topNav .left p {

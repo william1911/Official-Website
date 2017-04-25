@@ -10,45 +10,43 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
-.pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-
-  -webkit-transform: translate3d(0, -50px, 0);
-  -ms-transform: translate3d(0, -50px, 0);
-  transform: translate3d(0, -50px, 0);
-
-  -webkit-transition: -webkit-transform .5s ease-out;
-  -ms-transition: -webkit-transform .5s ease-out;
-  transition: transform .5s ease-out;
+.progress {
+	position: relative;
+	z-index: 1;
+	height: 6px;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none
 }
-
-.pace.pace-active {
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+.progress-bar {
+	-webkit-box-shadow: none;
+	box-shadow: none
 }
-
-.pace .pace-progress {
-  display: block;
-  position: fixed;
-  z-index: 2000;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 10px;
-  background: #29d;
-
-  pointer-events: none;
+.progress-bar:last-child {
+	border-radius: 0 3px 3px 0
+}
+.progress-bar:last-child:before {
+	display: block;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #cae6fc
+}
+.progress-bar-success:last-child.progress-bar:before {
+	background-color: #c7e7c8
+}
+.progress-bar-info:last-child.progress-bar:before {
+	background-color: #edc9f3
+}
+.progress-bar-warning:last-child.progress-bar:before {
+	background-color: #ffe0b3
+}
+.progress-bar-danger:last-child.progress-bar:before {
+	background-color: #f28e92
 }
 body {
 	margin: 0
@@ -6286,44 +6284,6 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 }
 .badge {
 	padding: 4px 6px 4px
-}
-.progress {
-	position: relative;
-	z-index: 1;
-	height: 6px;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none
-}
-.progress-bar {
-	-webkit-box-shadow: none;
-	box-shadow: none
-}
-.progress-bar:last-child {
-	border-radius: 0 3px 3px 0
-}
-.progress-bar:last-child:before {
-	display: block;
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	right: 0;
-	z-index: -1;
-	background-color: #cae6fc
-}
-.progress-bar-success:last-child.progress-bar:before {
-	background-color: #c7e7c8
-}
-.progress-bar-info:last-child.progress-bar:before {
-	background-color: #edc9f3
-}
-.progress-bar-warning:last-child.progress-bar:before {
-	background-color: #ffe0b3
-}
-.progress-bar-danger:last-child.progress-bar:before {
-	background-color: #f28e92
 }
 .close {
 	font-size: 34px;
