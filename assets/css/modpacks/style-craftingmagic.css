@@ -503,12 +503,14 @@ input:focus, textarea:focus, select:focus {
 	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
-	background-color: #222;
+	background-color: #111;
 	margin-top: 35px;
 	border-bottom-width: 0.5px;
 	border-color: #FF0000;
 	border-style: solid;
 	border-width: 0.5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #error404 p:nth-child(2), #error404 p:nth-child(3) {
