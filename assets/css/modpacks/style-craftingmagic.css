@@ -183,6 +183,7 @@ html, body {
 	right: 0;
 	top: 0;
 	bottom: 0;
+	background-color: rgba(15, 15, 15, 0.1);
 	border-color: #ff0000;
 	border-style: solid;
 	border-width: 0;
