@@ -1817,7 +1817,9 @@ pre code {
 	width: 58.33333333%
 }
 .col-md-6 {
-	width: 50%
+	width: 50%;
+	padding-right: 29px;
+	padding-bottom: 30px;
 }
 .col-md-5 {
 	width: 41.66666667%
