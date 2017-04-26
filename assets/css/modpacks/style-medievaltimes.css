@@ -40,7 +40,7 @@ html, body {
 #topNav {
 	padding-top: 7px;
 	background-color: rgba(15, 15, 15, 0.6);
-	border-top-color: red;
+	border-top-color: rgb(177, 59, 0);
 	border-top-style: solid;
 }
 
