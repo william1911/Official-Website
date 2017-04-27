@@ -3155,7 +3155,7 @@
 	padding-right: 2.2em
 }
 .hvr-icon-float-away:after, .hvr-icon-float-away:before {
-	content: "\f099";
+	content: "\f003";
 	position: absolute;
 	right: 1em;
 	padding: 0 1px;
@@ -4190,7 +4190,7 @@
 	transition-duration: .3s
 }
 .hvr-icon-buzz-out:before {
-	content: "\f023";
+	content: "\f129";
 	position: absolute;
 	right: 1em;
 	padding: 0 1px;
