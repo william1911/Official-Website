@@ -58,10 +58,6 @@ html, body {
 	text-decoration: none
 }
 
-#topNav .right .hvr-icon-buzz-out:before {
-	content: "\f09a"
-}
-
 .navbar-brand img {
 	width: 325px;
 	margin-top: -28px;
