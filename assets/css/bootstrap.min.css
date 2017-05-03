@@ -1154,7 +1154,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: inherit;
 	font-weight: 400;
 	line-height: 1.1;
-	color: #444444
+	color: #fff
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
 	font-weight: normal;
@@ -1176,7 +1176,8 @@ h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .s
 	font-size: 75%
 }
 h1, .h1 {
-	font-size: 56px
+	font-size: 56px;
+	color: #fff!important;
 }
 h2, .h2 {
 	font-size: 45px
@@ -6329,4 +6330,7 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 }
 .carousel-caption h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5, .carousel-caption h6 {
 	color: inherit
+}
+.howtobecomeastaffmember{
+	color:#fff!important;
 }
