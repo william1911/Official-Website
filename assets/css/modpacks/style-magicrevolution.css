@@ -18,7 +18,11 @@ html, body {
 	background-image:linear-gradient(
       rgba(10, 10, 10, 0.6),
       rgba(10, 10, 10, 0.6)
+<<<<<<< Updated upstream
     ),url("../../../assets/res/tile-lava.jpg");
+=======
+    ),url("../../../assets/res/tile-nebula.jpg");
+>>>>>>> Stashed changes
 	background-attachment:fixed;
 	background-size: 390px;
 	zoom: 100%;
