@@ -778,3 +778,8 @@ img:hover {
 	-webkit-filter: blur(2px);
 	filter: blur(2px);
 }
+
+/* For modpacks page */
+.modpackTitle {
+	padding: 10px !important;
+}
