@@ -1429,7 +1429,6 @@ p:last-child {
 	color: white;
 	-webkit-transition: all .25s;
 	transition: all .25s;
-	background-color: #00a8ff;
 }
 .button:hover, .button:focus, [class*='button--']:hover, [class*='button--']:focus {
 	outline: none;
@@ -1700,7 +1699,6 @@ p:last-child {
 }
 .button--disabled {
 	color: #95a5a6 !important;
-	background-color: #00a8ff !important;
 }
 .button--disabled:hover {
 	-webkit-box-shadow: none;
