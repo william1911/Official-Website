@@ -1453,6 +1453,7 @@ p:last-child {
 .button:last-child, [class*='button--']:last-child {
 	margin-right: -4px;
 	margin-bottom: 0;
+  background-color: #222;
 }
 .button--secondary {
 	background-color: #00a8ff;
