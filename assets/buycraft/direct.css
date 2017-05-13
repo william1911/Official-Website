@@ -2029,25 +2029,23 @@ button {
 	cursor: pointer;
 }
 input[type=text], input[type=email], input[type=url], input[type=password], select, textarea {
-	display: block;
-	width: 100%;
-	padding: 12px;
-	outline: none;
-	border: 2px solid #00a8ff;
-	border-radius: 0;
-	color: black;
-	background-color: #fff;
-	-webkit-transition: -webkit-box-shadow 0.25s;
-	transition: box-shadow 0.25s;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border: 2px solid #00a8ff;
+  border-radius: 0;
+  color: white;
+  background-color: #111;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
 }
 input[type=text]:hover, input[type=email]:hover, input[type=url]:hover, input[type=password]:hover, select:hover, textarea:hover {
 	border-color: #00a8ff;
-	background-color: white;
 }
 input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, select:focus, textarea:focus {
 	border-color: #00a8ff;
 	color: #black;
-	background-color: white;
 	-webkit-box-shadow: 0 0 0 1px #00a8ff;
 	box-shadow: 0 0 0 1px #00a8ff;
 }
