@@ -1407,7 +1407,7 @@ h3, h4, h5, h6 {
 	font-style: italic;
 }
 .module--secondary h1, .module--secondary h2, .module--secondary h3, .module--secondary h4, .module--secondary h5, .module--secondary h6 {
-	color: #222;
+	color: #fff;
 }
 .module--secondary h2 {
 	border-color: #00a8ff;
